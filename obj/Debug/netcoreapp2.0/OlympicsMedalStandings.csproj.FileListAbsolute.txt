@@ -1,0 +1,12 @@
+C:\4976\OlympicsMedalStandings\bin\Debug\netcoreapp2.0\app.db
+C:\4976\OlympicsMedalStandings\bin\Debug\netcoreapp2.0\OlympicsMedalStandings.deps.json
+C:\4976\OlympicsMedalStandings\bin\Debug\netcoreapp2.0\OlympicsMedalStandings.runtimeconfig.json
+C:\4976\OlympicsMedalStandings\bin\Debug\netcoreapp2.0\OlympicsMedalStandings.runtimeconfig.dev.json
+C:\4976\OlympicsMedalStandings\bin\Debug\netcoreapp2.0\OlympicsMedalStandings.dll
+C:\4976\OlympicsMedalStandings\bin\Debug\netcoreapp2.0\OlympicsMedalStandings.pdb
+C:\4976\OlympicsMedalStandings\obj\Debug\netcoreapp2.0\OlympicsMedalStandings.csproj.CoreCompileInputs.cache
+C:\4976\OlympicsMedalStandings\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\4976\OlympicsMedalStandings\obj\Debug\netcoreapp2.0\OlympicsMedalStandings.AssemblyInfoInputs.cache
+C:\4976\OlympicsMedalStandings\obj\Debug\netcoreapp2.0\OlympicsMedalStandings.AssemblyInfo.cs
+C:\4976\OlympicsMedalStandings\obj\Debug\netcoreapp2.0\OlympicsMedalStandings.dll
+C:\4976\OlympicsMedalStandings\obj\Debug\netcoreapp2.0\OlympicsMedalStandings.pdb
