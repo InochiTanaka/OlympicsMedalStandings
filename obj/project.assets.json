@@ -13130,6 +13130,9 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
       "projectUniqueName": "C:\\4976\\OlympicsMedalStandings\\OlympicsMedalStandings.csproj",
       "projectName": "OlympicsMedalStandings",
