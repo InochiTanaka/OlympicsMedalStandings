@@ -13203,7 +13203,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yunomi\\.nuget\\packages\\": {},
+    "C:\\Users\\yunom\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
@@ -13213,18 +13213,18 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\4976\\OlympicsMedalStandings\\OlympicsMedalStandings.csproj",
+      "projectUniqueName": "E:\\BCIT\\WebApp\\OlympicsMedalStandings\\OlympicsMedalStandings.csproj",
       "projectName": "OlympicsMedalStandings",
-      "projectPath": "C:\\4976\\OlympicsMedalStandings\\OlympicsMedalStandings.csproj",
-      "packagesPath": "C:\\Users\\Yunomi\\.nuget\\packages\\",
-      "outputPath": "C:\\4976\\OlympicsMedalStandings\\obj\\",
+      "projectPath": "E:\\BCIT\\WebApp\\OlympicsMedalStandings\\OlympicsMedalStandings.csproj",
+      "packagesPath": "C:\\Users\\yunom\\.nuget\\packages\\",
+      "outputPath": "E:\\BCIT\\WebApp\\OlympicsMedalStandings\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yunomi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yunom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
