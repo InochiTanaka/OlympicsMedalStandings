@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<OlympicsMedalStandings.Models.Country>
+@using System.Collections.Generic;
 
 @{
     ViewData["Title"] = "Index";
@@ -12,24 +13,62 @@
 <table class="table">
     <thead>
         <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.CountryName)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.NumGoldMedal)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.NumSilverMedal)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.NumBronzeMedal)
-                </th>
+            <th>@{ String Rank = "Rank"; }
+                @Html.DisplayNameFor(model => Rank)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CountryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumGoldMedal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumSilverMedal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumBronzeMedal)
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+
+@{
+    var ListTemp = new List<Country>(Model);
+    var List = new List<Country>();
+    var CountryTemp = new Country();
+    int totalNumMedals, tempMaxNum = 0;
+    int ListLength = Model.Count();
+
+    for (int i = 0; i < ListLength; i++)
+    {
+        foreach (var item in ListTemp)
+        {
+            totalNumMedals = item.NumGoldMedal + item.NumSilverMedal + item.NumBronzeMedal;
+            if (totalNumMedals > tempMaxNum)
+            {
+                tempMaxNum = totalNumMedals;
+                CountryTemp = item;
+            }
+        }
+        tempMaxNum = 0;
+        List.Add(CountryTemp);
+        ListTemp.Remove(CountryTemp);
+    }
+}
+@{ int rankNum = 1; }
+@foreach (var item in List)
+{
         <tr>
+            <td>
+                @{
+                    if (rankNum <= 3)
+                    {
+                        @Html.DisplayFor(modelItem => rankNum);
+                    }
+                    rankNum++;
+                 }
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CountryName)
             </td>

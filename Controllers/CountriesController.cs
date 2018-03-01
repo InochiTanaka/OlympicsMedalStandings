@@ -10,6 +10,7 @@ using OlympicsMedalStandings.Models;
 
 namespace OlympicsMedalStandings.Controllers
 {
+    [ApiExplorerSettings(IgnoreApi = true)]
     public class CountriesController : Controller
     {
         private readonly ApplicationDbContext _context;

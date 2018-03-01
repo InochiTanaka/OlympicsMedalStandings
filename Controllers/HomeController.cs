@@ -8,6 +8,7 @@ using OlympicsMedalStandings.Models;
 
 namespace OlympicsMedalStandings.Controllers
 {
+    [ApiExplorerSettings(IgnoreApi = true)]
     public class HomeController : Controller
     {
         public IActionResult Index()
